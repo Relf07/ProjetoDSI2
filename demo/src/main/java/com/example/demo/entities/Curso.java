@@ -19,11 +19,8 @@ public class Curso {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Integer Id;
 
-    @Column
+    @Column(nullable = false)
     private String nome;
 
-    @Override
-    public String toString(){
-        return "Curso [Id-" + Id + ", nome=" + nome +"]";
-    }
+    
 }
