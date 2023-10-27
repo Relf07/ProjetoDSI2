@@ -1,11 +1,9 @@
-
-
 package com.example.demo.repositories;
 
-    import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.data.jpa.repository.JpaRepository;
 
-    import com.example.demo.entities.Requisicao;
+import com.example.demo.entities.Requisicao;
 
-    public interface RequisicaoRepository extends JpaRepository<Requisicao, Integer>{
+public interface RequisicaoRepository extends JpaRepository<Requisicao, Integer>{
     
 }

@@ -10,21 +10,22 @@ import lombok.Setter;
 
 @Entity
 @Getter @Setter
-public class Requisicao{
-
-    @Column
-    private Integer Gets;
-
-    @Column
-    private Integer Posts;
-
-    @Column
-    private Integer Puts;
-
-    @Column
-    private Integer Deletes;
+public class Requisicao {
 
     @Id
-    @GeneratedValue (strategy = GenerationType.IDENTITY)
-    private Integer Id;
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    private Integer id;
+
+    @Column
+    private Integer gets;
+   
+    @Column
+    private Integer posts;
+
+    @Column
+    private Integer puts;
+
+    @Column
+    private Integer deletes;
+    
 }

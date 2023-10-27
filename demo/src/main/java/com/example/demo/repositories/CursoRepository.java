@@ -4,7 +4,6 @@ import org.springframework.data.jpa.repository.JpaRepository;
 
 import com.example.demo.entities.Curso;
 
-
-public interface CursoRepository extends JpaRepository<Curso, Integer >{
+public interface CursoRepository extends JpaRepository<Curso, Integer>{
     
 }
